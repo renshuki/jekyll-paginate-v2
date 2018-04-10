@@ -62,7 +62,7 @@ module Jekyll
 
         ################ 0 #################### 
         # Get all pages in the site (this will be used to find the pagination templates)
-        all_pages = site.pages
+        all_pages = site.documents
 
         # Get the default title of the site (used as backup when there is no title available for pagination)
         site_title = site.config['title']
